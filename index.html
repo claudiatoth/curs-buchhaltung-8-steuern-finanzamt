@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steuern & Finanzamt — germană pentru contabilitate · B1</title>
+    <meta property="og:title" content="Buchhaltung Teil 8 — Steuern & Finanzamt">
+    <meta property="og:description" content="Germană pentru impozite și fisc: Steuererklärung, Einkommensteuer, Steuerbescheid, Erstattung/Nachzahlung, absetzen + dialog animat la consilierul fiscal. Nivel B1.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog" onclick="openSection(1)">🎬 Dialog</a></li>
+            <li><a href="#ex1" onclick="openSection(2)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(3)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(4)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(5)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(6)">Ex. 5</a></li>
+            <li><a href="#flashcards" onclick="openSection(7)">📇 Flashcards</a></li>
+            <li><a href="#verbs" onclick="openSection(8)">🔁 Verb-Konjugation</a></li>
+            <li><a href="#final-test" onclick="openSection(9)">🎯 Test Final</a></li>
+            <li><a href="#schreiben" onclick="openSection(10)">✍️ Schreiben</a></li>
+            <li><a href="curs-buchhaltung-8-steuern-finanzamt.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Steuern & Finanzamt</h1>
+            <p class="subtitle">Germană pentru contabilitate — impozite și fisc · Nivel B1</p>
+            <p>Claudia Toth · Deutsch für Buchhaltung & Finanzen — Teil 8</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ 🎬 Dialog animat: Die erste Steuererklärung</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <p style="margin-bottom:14px;"><em>Apasă ▶️ Pornește. Andreea face prima ei declarație de impozit și merge la consiliera fiscală. Frau Vogel îi explică ce poate deduce și ce urmează. Reascultă orice replică cu 🔁.</em></p>
+                    <div id="dialog1-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 1: Lückentext — completează</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 2: Quiz — alegere multiplă</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 3: Potrivește vocabularul</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 4: Traduceri RO → DE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 5: Situație ↔ expresie</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(5)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(5)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Flashcards - Învățare prin repetiție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbs">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🔁 Verb-Konjugation - Verbe impozite/fisc</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="section" id="schreiben">
+                <div class="section-header" onclick="toggleMainSection(10)"><h3>ʚଓ ✍️ Schreibwerkstatt - Atelier de scriere</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-10">
+                    <div class="exercise-instruction">
+                        <strong>✍️ Sarcina de scriere:</strong> Scrie un text scurt (aprox. <strong>40-60 de cuvinte</strong>) — descrie cum faci (sau ai face) prima ta declarație de impozit în Germania, sau ce întrebări ai pentru consilierul fiscal. Folosește <strong>minimum 6 cuvinte</strong> din lecție.
+                    </div>
+                    <div class="theory-box" style="background:#f0fdf4;">
+                        <h4>💡 Răspunde la întrebările (Leitfragen):</h4>
+                        <ul style="margin:6px 0 0 18px; line-height:1.7;">
+                            <li>📝 <strong>Machen Sie eine Steuererklärung?</strong> (Faci o declarație de impozit?)</li>
+                            <li>📉 <strong>Was möchten Sie absetzen?</strong> (Ce vrei să deduci? — Fahrtkosten, Fortbildung)</li>
+                            <li>📅 <strong>Bis wann ist die Frist?</strong> (Până când e termenul?)</li>
+                            <li>💶 <strong>Erwarten Sie eine Erstattung oder eine Nachzahlung?</strong> (Aștepți rambursare sau plată?)</li>
+                            <li>👩‍💼 <strong>Brauchen Sie einen Steuerberater?</strong> (Ai nevoie de un consilier fiscal?)</li>
+                        </ul>
+                    </div>
+                    <div class="theory-box" style="background:#fffbeb; border-left:4px solid #f59e0b;">
+                        <h4>📝 Model (ca să-ți fie mai ușor):</h4>
+                        <p class="de" style="color:#065f46;"><em>Dieses Jahr mache ich zum ersten Mal eine Steuererklärung. Ich möchte die Fahrtkosten zur Arbeit und eine Fortbildung von der Steuer absetzen. Dafür habe ich alle Belege gesammelt. Die Frist ist der 31. Juli. Ich gebe die Erklärung beim Finanzamt ab. Ich hoffe, ich bekomme eine Erstattung und keine Nachzahlung. Wenn es kompliziert wird, frage ich einen Steuerberater.</em></p>
+                        <p class="ro" style="color:#6b7280; font-style:italic;">(Anul acesta fac pentru prima dată o declarație de impozit. Vreau să deduc costurile de drum la muncă și un curs de perfecționare. Pentru asta am strâns toate documentele. Termenul e 31 iulie. Depun declarația la fisc. Sper să primesc o rambursare și nu o plată suplimentară. Dacă devine complicat, întreb un consilier fiscal.)</p>
+                    </div>
+                    <div style="text-align:center; margin-top:22px;">
+                        <p style="color:#047857; margin-bottom:14px; font-size:1rem;">Când ești gata, trimite-mi textul tău prin formular. Îl citesc și îți dau feedback personalizat. 🦋</p>
+                        <a href="https://forms.gle/iBwxTRrkZoEHW1z28" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#10B981; color:white; padding:14px 32px; border-radius:10px; text-decoration:none; font-weight:bold; font-size:1.05rem; box-shadow:0 2px 6px rgba(16,185,129,0.3);">✍️ Trimite textul tău →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Gut gemacht!</p>
+                <p>Acum știi cum funcționează declarația de impozit, ce tipuri de impozite există, ce poți deduce (absetzen), ce e un Steuerbescheid și diferența dintre Erstattung și Nachzahlung. Prima Steuererklärung nu te mai sperie — și poate îți aduce bani înapoi. 💚</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="dialogs.js?v=1"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
