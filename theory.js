@@ -23,7 +23,7 @@ const theoryHTML = `
                 <img class="andreea-note-avatar" src="images/andreea.png" alt="Andreea">
                 <div class="andreea-note-content">
                     <div class="speaker">Andreea</div>
-                    <div class="text">A opta lecție din seria <strong>Buchhaltung &amp; Finanzen</strong>! Azi învățăm despre <strong>impozite</strong>: ce e declarația de impozit (Steuererklärung), ce tipuri de impozite există (Einkommensteuer, Umsatzsteuer), ce e decizia de impunere (Steuerbescheid) și diferența dintre o <strong>rambursare</strong> (Erstattung) și o <strong>plată suplimentară</strong> (Nachzahlung). La final ascult un dialog real cu Frau Vogel, consiliera fiscală (Steuerberaterin).</div>
+                    <div class="text">Azi învățăm despre <strong>impozite</strong>: ce e declarația de impozit (Steuererklärung), ce tipuri de impozite există (Einkommensteuer, Umsatzsteuer), ce e decizia de impunere (Steuerbescheid) și diferența dintre o <strong>rambursare</strong> (Erstattung) și o <strong>plată suplimentară</strong> (Nachzahlung). La final ascult un dialog real cu Frau Vogel, consiliera fiscală (Steuerberaterin).</div>
                 </div>
             </div>
             <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
