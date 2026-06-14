@@ -26,7 +26,7 @@ const theoryHTML = `
                     <div class="text">Azi învățăm despre <strong>impozite</strong>: ce e declarația de impozit (Steuererklärung), ce tipuri de impozite există (Einkommensteuer, Umsatzsteuer), ce e decizia de impunere (Steuerbescheid) și diferența dintre o <strong>rambursare</strong> (Erstattung) și o <strong>plată suplimentară</strong> (Nachzahlung). La final ascult un dialog real cu Frau Vogel, consiliera fiscală (Steuerberaterin).</div>
                 </div>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>✍️ Notă despre diacritice (ä, ö, ü, ß)</h4>
                 <p>Verificarea e blândă: poți scrie Umlaut-urile corect (<em>die Steuererklärung, der Freibetrag, die Finanzämter</em>) sau cu varianta de înlocuire (<em>Steuererklaerung, Freibetrag</em>). Ambele sunt acceptate. La fel, punctul de la finalul propoziției e opțional.</p>
             </div>
@@ -47,7 +47,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>🚨 Substantivele se învață ÎNTOTDEAUNA cu pluralul</h4>
                 <p>În germană pluralul e imprevizibil (-e, -en, Umlaut sau identic). De aceea fiecare substantiv apare aici la <strong>singular · plural</strong>. Învață-le împreună, ca pe o pereche.</p>
             </div>
@@ -88,7 +88,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#f0fdf4;">
+            <div class="theory-box" style="background:#FBF7EF;">
                 <h4>💡 Ce scrie în Steuerbescheid</h4>
                 <p>După ce trimiți Steuererklärung, primești un <strong>Steuerbescheid</strong> (decizia de impunere). Acolo scrie unul din două lucruri:<br>
                 ✅ <strong>Erstattung</strong> = primești bani înapoi (ai plătit prea mult).<br>
