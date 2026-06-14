@@ -123,7 +123,7 @@ function buildVerbs() {
         </div>
     `;
     verbsData.forEach((v, idx) => {
-        const auxColor = v.aux === 'sein' ? '#3b82f6' : '#10b981';
+        const auxColor = v.aux === 'sein' ? '#D4A574' : '#10b981';
         const typeColor = v.type === 'strong' ? '#dc2626' : '#10b981';
         const typeLabel = v.type === 'strong' ? 'TARE (neregulat)' : 'REGULAT';
         let praesensRows = ''; v.praesens.forEach(r => { praesensRows += `<tr><td><strong>${r.p}</strong></td><td class="verb">${r.f}</td><td class="ro-text">${r.ro}</td></tr>`; });
